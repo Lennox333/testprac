@@ -1,10 +1,18 @@
+
+import java.util.ArrayList;
+
 public class User {
     // ... (other fields and methods)
+
+    private  String _username;
+    private  String _password;
 
     private ArrayList<ToDoItem> toDoItems;
 
     public User(String username, String password) {
         // ... (other initializations)
+        _username = username;
+        _password = password;
         this.toDoItems = new ArrayList<>();
     }
 
@@ -15,4 +23,8 @@ public class User {
     public ArrayList<ToDoItem> getToDoItems() {
         return toDoItems;
     }
+
+
+
+
 }
