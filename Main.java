@@ -5,7 +5,7 @@ class Main {
     // ... (other methods and fields)
 
     public static void onLogIn() {
-        // THIS IS BRANCH
+
         System.out.print("Enter your username: ");
         Scanner scanner = new Scanner(System.in);
         String username = scanner.nextLine();
