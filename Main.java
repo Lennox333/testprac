@@ -4,6 +4,10 @@ import java.util.Scanner;
 class Main {
     // ... (other methods and fields)
 
+    public static void main(String[] args) {
+        onLogIn();
+    }
+
     public static void onLogIn() {
 
         System.out.print("Enter your username: ");
@@ -18,4 +22,7 @@ class Main {
         ToDoList todolist = new ToDoList(user);
         todolist.run();
     }
+
+
 }
+
