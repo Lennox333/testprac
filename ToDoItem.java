@@ -8,7 +8,7 @@ public class ToDoItem {
 
     public  ToDoItem(String _description) {
         isDone = false;
-        _description = description;
+        description = _description;
 
     }
 

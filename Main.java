@@ -1,3 +1,6 @@
+import java.util.Scanner;
+
+
 class Main {
     // ... (other methods and fields)
 
